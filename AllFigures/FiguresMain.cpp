@@ -12,6 +12,7 @@ int main() {
 	triangle->C = 60;
 	triangle->B = 70;
 	print_info(triangle);
+	delete triangle;
 
 	Figures* quadrilateral = new Quadrilateral();
 	quadrilateral->number = 4;
@@ -24,6 +25,7 @@ int main() {
 	quadrilateral->B = 70;
 	quadrilateral->D = 80;
 	print_info(quadrilateral);
+	delete quadrilateral;
 
 	Figures* rightRriangle = new RightRriangle();
 	rightRriangle->number = 3;
@@ -34,6 +36,7 @@ int main() {
 	rightRriangle->C = 60;
 	rightRriangle->B = 90;
 	print_info(rightRriangle);
+	delete rightRriangle;
 
 	Figures* isoscelesTriangle = new IsoscelesTriangle();
 	isoscelesTriangle->number = 3;
@@ -44,6 +47,7 @@ int main() {
 	isoscelesTriangle->C = 60;
 	isoscelesTriangle->B = 60;
 	print_info(isoscelesTriangle);
+	delete isoscelesTriangle;
 
 	Figures* equilateralTriangle = new EquilateralTriangle();
 	equilateralTriangle->number = 4;
@@ -56,6 +60,7 @@ int main() {
 	equilateralTriangle->B = 90;
 	equilateralTriangle->D = 90;
 	print_info(equilateralTriangle);
+	delete equilateralTriangle;
 	
 	return 0;
 }
