@@ -1,32 +1,20 @@
 #include "FiguresH.h"
+#include "Triangle.h"
+#include "Quadrilateral.h"
 
 int main() {
 	setlocale(LC_ALL, "Russian");
 
-	Figures* triangle = new Triangle();
-	triangle->number = 3;
-	triangle->a=10;
-	triangle->c = 20;
-	triangle->b = 30;
-	triangle->A = 50;
-	triangle->C = 60;
-	triangle->B = 70;
+	Figures* triangle = new Triangle(10,20,30,50,60,70);
+	triangle->number = 3;	
 	print_info(triangle);
 	delete triangle;
 
-	Figures* quadrilateral = new Quadrilateral();
-	quadrilateral->number = 4;
-	quadrilateral->a = 10;
-	quadrilateral->c = 20;
-	quadrilateral->b = 30;
-	quadrilateral->d = 40;
-	quadrilateral->A = 50;
-	quadrilateral->C = 60;
-	quadrilateral->B = 70;
-	quadrilateral->D = 80;
+	Figures* quadrilateral = new Quadrilateral(10,20,30,40,50,60,70,80);
+	quadrilateral->number = 4;	
 	print_info(quadrilateral);
 	delete quadrilateral;
-
+	/*
 	Figures* rightRriangle = new RightRriangle();
 	rightRriangle->number = 3;
 	rightRriangle->a = 10;
@@ -61,6 +49,6 @@ int main() {
 	equilateralTriangle->D = 90;
 	print_info(equilateralTriangle);
 	delete equilateralTriangle;
-	
+	*/
 	return 0;
 }
