@@ -127,14 +127,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EquilateralTriangle.cpp" />
     <ClCompile Include="FiguresCpp.cpp" />
     <ClCompile Include="FiguresMain.cpp" />
+    <ClCompile Include="IsoscelesTriangle.cpp" />
+    <ClCompile Include="Parallelogram.cpp" />
     <ClCompile Include="Quadrilateral.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Rhombus.cpp" />
+    <ClCompile Include="RightRriangle.cpp" />
+    <ClCompile Include="Square.cpp" />
     <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EquilateralTriangle.h" />
     <ClInclude Include="FiguresH.h" />
+    <ClInclude Include="IsoscelesTriangle.h" />
+    <ClInclude Include="Parallelogram.h" />
     <ClInclude Include="Quadrilateral.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Rhombus.h" />
+    <ClInclude Include="RightRriangle.h" />
+    <ClInclude Include="Square.h" />
     <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

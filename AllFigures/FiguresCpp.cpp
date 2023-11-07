@@ -17,107 +17,17 @@ void print_info(Figures* f) {
 	}
 	std::cout << std::endl;
 }
-/*
-RightRriangle::RightRriangle(int a, int b, int c, int A, int B, int C) {
-	this->a = a;
-	this->b = b;
-	this->c = c;
 
-	this->A = A;
-	this->B = B;
-	this->C = C;
-}
 
-std::string RightRriangle::getType() {
-	return NameFigures;
-}
 
-IsoscelesTriangle::IsoscelesTriangle(int a, int b, int c, int A, int B, int C){
-		this->a = a;
-		this->b = b;
-		this->c = c;
-
-		this->A = A;
-		this->B = B;
-		this->C = C;
-}
-
-std::string IsoscelesTriangle::getType(){
-		return NameFigures;
-}
 	
-EquilateralTriangle::EquilateralTriangle(int a, int b, int c, int A, int B, int C){
-		this->a = a;
-		this->b = b;
-		this->c = c;
 
-		this->A = A;
-		this->B = B;
-		this->C = C;
-}
 
-std::string EquilateralTriangle::getType(){
-		return NameFigures;
-}
 
-Rectangle::Rectangle(int a, int b, int c, int d, int A, int B, int C, int D){
-		this->a = a;
-		this->b = b;
-		this->c = c;
 
-		this->A = A;
-		this->B = B;
-		this->C = C;
-		this->C = D;
-}
 
-std::string Rectangle::getType(){
-		return NameFigures;
-}
 
-Square::Square(int a, int b, int c, int d, int A, int B, int C, int D){
-		this->a = a;
-		this->b = b;
-		this->c = c;
 
-		this->A = A;
-		this->B = B;
-		this->C = C;
-		this->C = D;
-}
 
-std::string Square::getType() {
-	   return NameFigures;
-}
 
-Parallelogram::Parallelogram(int a, int b, int c, int d, int A, int B, int C, int D){
-		this->a = a;
-		this->b = b;
-		this->c = c;
 
-		this->A = A;
-		this->B = B;
-		this->C = C;
-		this->C = D;
-}
-
-std::string Parallelogram::getType() {
-		return NameFigures;
-}
-
-Rhombus::Rhombus(int a, int b, int c, int d, int A, int B, int C, int D){
-		this->a = a;
-		this->b = b;
-		this->c = c;
-
-		this->A = A;
-		this->B = B;
-		this->C = C;
-		this->C = D;
-}
-
-std::string Rhombus::getType() {
-	return NameFigures;
-}
-
-*/
